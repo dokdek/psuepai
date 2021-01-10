@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Snackbar from "@material-ui/core/Snackbar";
 import MuiAlert from "@material-ui/lab/Alert";
 import { Link } from "gatsby";
+import { Helmet } from'react-helmet';
 import githubLogo from "../icons/github.png";
 import resume from "../files/Patchanon_Suepai_Resume.pdf";
 
@@ -48,6 +49,9 @@ const IndexPage = () => {
 
   return (
     <div className="m-8">
+      <Helmet>
+        <title>Patchanon Suepai</title>
+      </Helmet>
       <h1 className="text-5xl font-bold leading-7 text-gray-900">
         {greeting + "!"}
       </h1>
@@ -83,7 +87,7 @@ const IndexPage = () => {
       <h1 className="mt-7 text-3xl font-bold mb-5">Info:</h1>
       <div className="flex items-center mb-1">
         <img
-          style={{ backgroundImage: `url(${githubLogo})` }}
+          src={githubLogo}
           className="bg-contain h-10 w-10 shadow-2xl rounded-full mr-1"
           alt="github logo"
         ></img>

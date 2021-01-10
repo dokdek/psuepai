@@ -15,7 +15,7 @@ const text = [
 function blogFormatter() {
   const blog = text.map((item) => {
     return (
-      <div>
+      <div key={item.content}>
         <p className="font-bold">{item.date}</p>
         <p>{item.content}</p>
       </div>

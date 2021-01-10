@@ -3,8 +3,8 @@ module.exports = {
     title: "Personal Site",
   },
   plugins: [
-    "gatsby-plugin-mdx",
     'gatsby-plugin-postcss',
+    `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-source-filesystem",
       options: {

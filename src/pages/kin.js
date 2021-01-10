@@ -15,7 +15,7 @@ const KinPage = () => {
       <h1 className="mt-5 text-5xl font-bold text-gray-900">Kin</h1>
       <div className="flex items-center">
         <img
-          style={{ backgroundImage: `url(${githubLogo})` }}
+          src={githubLogo}
           className="bg-contain h-4 w-4 shadow-2xl rounded-full mr-1"
           alt="github logo"
         ></img>
@@ -45,7 +45,7 @@ const KinPage = () => {
       <h1 className="mt-7 text-3xl font-bold">Reflection</h1>
       <p>{kinReflect}</p>
       <h1 className="mt-7 text-3xl font-bold">Updates/Blog</h1>
-      <p className="divide-y-2 divide-yellow-500 divide-solid">{kinBlog()}</p>
+      <div className="divide-y-2 divide-yellow-500 divide-solid">{kinBlog()}</div>
     </div>
   );
 };
