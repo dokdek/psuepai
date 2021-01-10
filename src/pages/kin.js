@@ -12,7 +12,7 @@ const KinPage = () => {
       <a className="font-bold hover:text-red-500" href="/">
         Home
       </a>
-      <h1 className="mt-5 text-5xl font-bold text-gray-900">Kin</h1>
+      <h1 className="text-5xl font-bold text-gray-900">Kin</h1>
       <div className="flex items-center">
         <img
           src={githubLogo}
@@ -22,7 +22,7 @@ const KinPage = () => {
         <a
           href="https://github.com/dokdek/kin"
           target="_blank"
-          className="text-xs hover:text-red-500"
+          className="underline text-xs hover:text-red-500"
           rel="noreferrer"
         >
           : Source
@@ -35,15 +35,15 @@ const KinPage = () => {
       <p className="text-xs">: In development</p>
       </div>
       <h1 className="mt-7 text-3xl font-bold">Goals</h1>
-      <p>{kinGoals}</p>
+      <p className="mt-3">{kinGoals}</p>
       <h1 className="mt-7 text-3xl font-bold">Technologies Used </h1>
-      <ul className="ml-2">
+      <ul className="ml-2 mt-3">
         {kinTech()}
       </ul>
       <h1 className="mt-7 text-3xl font-bold">Features</h1>
-      <p>{kinFeatures}</p>
+      <p className="mt-3">{kinFeatures}</p>
       <h1 className="mt-7 text-3xl font-bold">Reflection</h1>
-      <p>{kinReflect}</p>
+      <p className="mt-3">{kinReflect}</p>
       <h1 className="mt-7 text-3xl font-bold">Updates/Blog</h1>
       <div className="divide-y-2 divide-yellow-500 divide-solid">{kinBlog()}</div>
     </div>

@@ -4,6 +4,7 @@ import MuiAlert from "@material-ui/lab/Alert";
 import { Link } from "gatsby";
 import { Helmet } from'react-helmet';
 import githubLogo from "../icons/github.png";
+import favicon from '../icons/favicon.ico'
 import resume from "../files/Patchanon_Suepai_Resume.pdf";
 
 // markup
@@ -52,6 +53,7 @@ const IndexPage = () => {
     <div className="m-8">
       <Helmet>
         <title>Patchanon Suepai</title>
+        <link rel="shortcut icon" href={favicon} />
       </Helmet>
       <h1 className="text-5xl font-bold leading-7 text-gray-900">
         {greeting + "!"}
@@ -95,7 +97,7 @@ const IndexPage = () => {
         <a
           href="https://github.com/dokdek"
           target="_blank"
-          className="hover:text-red-500"
+          className="underline hover:text-red-500"
           rel="noreferrer"
         >
           : dokdek
@@ -117,7 +119,7 @@ const IndexPage = () => {
           />
         </svg>
         <button
-          className="hover:text-red-500 cursor-pointer"
+          className="underline hover:text-red-500 cursor-pointer"
           onClick={() => emailClick()}
         >
           : psuepai@my.yorku.ca
@@ -127,7 +129,7 @@ const IndexPage = () => {
       <svg className="bg-cover h-10 w-10 shadow-2xl rounded-full mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
 </svg>
-        <a href={resume} target="_blank" className="hover:text-red-500" rel="noreferrer"
+        <a href={resume} target="_blank" className="underline hover:text-red-500" rel="noreferrer"
 
 >: Resume</a>
       </div>
@@ -141,7 +143,7 @@ const IndexPage = () => {
     </div>
   );
   }else {
-    return null;
+    return null
   }
 };
 
