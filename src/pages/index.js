@@ -47,6 +47,7 @@ const IndexPage = () => {
     getGreeting(new Date());
   });
 
+  if(greeting){
   return (
     <div className="m-8">
       <Helmet>
@@ -139,6 +140,9 @@ const IndexPage = () => {
       </Snackbar>
     </div>
   );
+  }else {
+    return null;
+  }
 };
 
 export default IndexPage;
