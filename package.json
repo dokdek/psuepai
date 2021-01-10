@@ -15,12 +15,20 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "autoprefixer": "^10.2.1",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-material-ui": "^2.1.10",
     "gatsby-plugin-mdx": "^1.8.0",
+    "gatsby-plugin-postcss": "^3.5.0",
     "gatsby-source-filesystem": "^2.9.0",
+    "gatsby-transformer-remark": "^2.14.0",
+    "postcss": "^8.2.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^2.0.2"
   }
 }

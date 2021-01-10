@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-mdx",
+    'gatsby-plugin-postcss',
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -11,6 +12,13 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
     },
   ],
 };
