@@ -1,10 +1,11 @@
 import React from "react";
 import githubLogo from "../icons/github.png";
-import kinFeatures from "../textfiles/kin-features";
-import kinGoals from "../textfiles/kin-description.js";
-import kinTech from "../textfiles/kin-tech";
-import kinReflect from "../textfiles/kin-reflection";
-import kinBlog from '../textfiles/kin-blog';
+import trelloLogo from "../icons/trello-mark-blue.png"
+import kinFeatures from "../textfiles/kin/kin-features";
+import kinGoals from "../textfiles/kin/kin-description.js";
+import kinTech from "../textfiles/kin/kin-tech";
+import kinReflect from "../textfiles/kin/kin-reflection";
+import kinBlog from '../textfiles/kin/kin-blog';
 
 const KinPage = () => {
   return (
@@ -26,6 +27,19 @@ const KinPage = () => {
           rel="noreferrer"
         >
           : Source
+        </a>
+      </div>
+      <div className="mt-0.5 flex items-center"> 
+        <img src={trelloLogo}
+        className="bg-contain h-4 w-4 shadow-2xl mr-1"
+        alt="trello logo"></img>
+                <a
+          href="https://trello.com/b/Ex7iEibX/kin"
+          target="_blank"
+          className="underline text-xs hover:text-red-500"
+          rel="noreferrer"
+        >
+          : Trello
         </a>
       </div>
       <div className="flex items-center">
