@@ -1,10 +1,10 @@
 import React from "react";
 
 const text = [
-    {
-        date: "10/1/2021",
-        content:"The project is now deployed on a server, I decided to use Heroku as a hosting service as it's free and it would be only me using this for now. Transferring everything over to Heroku wasn't too difficult, I had some missing dependencies not inside package.json so I had to update that. I also had to update the frontend to query the proper API routes as they were previously pointing to localhost routes."
-    },
+  {
+    date: "11/1/2021",
+    content:"After deploying a site, a rather large bug appeared, Safari on both mobile and desktop block third party cookies by default, and with my current configuration, the front and backend are two different apps on different domains. It seems that after some research this isn't the best choice and they should be combined. As of right now, the site is non functional on Apple devices. I'll have to merge and front and backend and re-write some routes to make it all work agian."
+},
   {
     date: "9/1/2021",
     content:
