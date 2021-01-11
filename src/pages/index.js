@@ -58,10 +58,10 @@ const IndexPage = () => {
       <h1 className="text-5xl font-bold leading-7 text-gray-900">
         {greeting + "!"}
       </h1>
-      <h2 className="mt-5 text-xl">I'm Patchanon Suepai</h2>
+      <h2 className="mt-5 text-xl font-medium">I'm Patchanon Suepai</h2>
       <p className="mt-2">
-        Current York University software engineering student with an interest in
-        web and mobile app development
+        Thanks for visiting, I'm a current York University software engineering student with an interest in
+        web and mobile app development. I love learning new technologies and creating simple and intuitive interfaces.
       </p>
       <h1 className="mt-7 text-3xl font-bold">Projects:</h1>
       <ul className="mt-5">
@@ -72,6 +72,7 @@ const IndexPage = () => {
           >
             Kin
           </Link>
+          <p className="font-light text-xs italic">2020</p>
           <p>
             An envelope budgeting website made for personal use. Developed using
             React and conneceted to MongoDB via a REST API using Express.
@@ -84,7 +85,8 @@ const IndexPage = () => {
           >
             Personal Site
           </Link>
-          <p>This current site, a static site created in React/Gatsby</p>
+          <p className="font-light text-xs italic">2020</p>
+          <p>This current site, a static site created in React/Gatsby.</p>
         </li>
       </ul>
       <h1 className="mt-7 text-3xl font-bold mb-5">Info:</h1>
