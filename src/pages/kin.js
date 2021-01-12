@@ -57,6 +57,7 @@ const KinPage = () => {
 </svg>
 </a>
       </div>
+      <p className="mt-1 text-xs italic">Hosted on Heroku free tier, so will take a while to load at first.</p>
       <h1 className="mt-7 text-3xl font-bold">Goals</h1>
       <p className="mt-3">{kinGoals}</p>
       <h1 className="mt-7 text-3xl font-bold">Technologies Used </h1>

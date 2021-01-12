@@ -49,7 +49,7 @@ const PersonalPage = () => {
         className="bg-contain h-5 w-5 shadow-2xl mr-1"
         alt="trello logo"></img>
         </a>
-        <a href="https://kin-site.herokuapp.com/login"
+        <a href="https://psuepai.com/"
           target="_blank"
           rel="noreferrer">
 <svg  className="bg-contain h-5 w-5 shadow-2xl mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
