@@ -3,7 +3,7 @@ import React from "react";
 const text = [
   {
     date: "11/1/2021",
-    content:"After deploying a site, a rather large bug appeared, Safari on both mobile and desktop block third party cookies by default, and with my current configuration, the front and backend are two different apps on different domains. It seems that after some research this isn't the best choice and they should be combined. As of right now, the site is non functional on Apple devices. I'll have to merge and front and backend and re-write some routes to make it all work agian."
+    content:"After deploying the site, a rather large bug appeared, Safari on both mobile and desktop block third party cookies by default, and with my current configuration, the frontend and backend are two different apps on different domains. It seems that after some research this isn't the best choice and they should be combined. As of right now, the site is non functional on Apple devices. I'll have to merge and front and backend and re-write some routes to make it all work agian."
 },
   {
     date: "9/1/2021",
