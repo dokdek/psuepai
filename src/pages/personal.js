@@ -41,7 +41,7 @@ const PersonalPage = () => {
         ></img>
         </a>
                 <a
-          href="https://trello.com/b/Ex7iEibX/kin"
+          href="https://trello.com/b/LN0AbEaA/psuepai"
           target="_blank"
           rel="noreferrer"
         >
