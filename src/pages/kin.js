@@ -21,6 +21,33 @@ const KinPage = () => {
       </a>
       <h1 className="text-5xl font-bold text-gray-900">Kin</h1>
       <div className="flex items-center">
+      <svg
+            className="bg-contain h-4 w-4 shadow-2xl mr-1"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+            />
+          </svg>
+      <a
+          className="text-xs italic underline hover:text-red-500"
+          href="https://kin-site.herokuapp.com/login"
+          target="_blank"
+          rel="noreferrer"
+        >
+          : Link
+        </a>
+      </div>
+      <p className="text-xs italic">
+        Hosted on Heroku free tier, so it will take a while to load at first.
+      </p>
+      <div className="flex items-center">
         <svg
           className="bg-cover h-4 w-4 shadow-2xl rounded-full mr-1"
           xmlns="http://www.w3.org/2000/svg"
@@ -58,30 +85,7 @@ const KinPage = () => {
             alt="trello logo"
           ></img>
         </a>
-        <a
-          href="https://kin-site.herokuapp.com/login"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <svg
-            className="bg-contain h-5 w-5 shadow-2xl mr-1"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-            />
-          </svg>
-        </a>
       </div>
-      <p className="mt-1 text-xs italic">
-        Hosted on Heroku free tier, so it will take a while to load at first.
-      </p>
       <h1 className="mt-7 text-3xl font-bold">Goals</h1>
       <p className="mt-3">{kinGoals}</p>
       <h1 className="mt-7 text-3xl font-bold">Technologies Used </h1>

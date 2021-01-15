@@ -22,6 +22,30 @@ const PersonalPage = () => {
       </a>
       <h1 className="text-5xl font-bold text-gray-900">Personal Site</h1>
       <div className="flex items-center">
+      <svg
+            className="bg-contain h-4 w-4 shadow-2xl mr-1"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+            />
+          </svg>
+      <a
+          className="text-xs italic underline hover:text-red-500"
+          href="https://psuepai.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          : Link
+        </a>
+      </div>
+      <div className="flex items-center">
       <svg className="bg-contain h-4 w-4 shadow-2xl mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
 </svg>
@@ -49,13 +73,6 @@ const PersonalPage = () => {
         className="bg-contain h-5 w-5 shadow-2xl mr-1"
         alt="trello logo"></img>
         </a>
-        <a href="https://psuepai.com/"
-          target="_blank"
-          rel="noreferrer">
-<svg  className="bg-contain h-5 w-5 shadow-2xl mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-</svg>
-</a>
       </div>
       <h1 className="mt-7 text-3xl font-bold">Goals</h1>
       <p className="mt-3">{personalDescription}</p>
