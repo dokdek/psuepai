@@ -1,0 +1,3 @@
+const text = "The bot is built on JavaScript using the Discord.js Node module, which easily allows the user to interact with the Discord API to perform operations. It is connected to a MongoDB database to store and retrieve all the listing data. Compared to previous projects, I spent a lot more time thinking about the database model and how it should be implemented, thus a lot of the functions for reading and writing to the database are a lot simpler than my previous projects.";
+
+export default text;
