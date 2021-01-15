@@ -73,7 +73,7 @@ const IndexPage = () => {
             Shiroyuki
           </Link>
           <p className="font-light text-xs italic">2021</p>
-          <p>A Discord bot made for creating and viewing guild listings for the game Final Fantasy XIV.</p>
+          <p>A Discord bot made for creating and viewing guild listings for the game Final Fantasy XIV built using Node/JavaScript.</p>
         </li>
         <li className="mt-1">
           <Link
