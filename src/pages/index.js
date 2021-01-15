@@ -61,11 +61,21 @@ const IndexPage = () => {
       <h2 className="mt-5 text-xl font-medium">I'm Patchanon Suepai</h2>
       <p className="mt-2">
         Thanks for visiting, I'm a current York University software engineering student with an interest in
-        web and mobile app development. I love learning new technologies and creating simple and intuitive interfaces.
+        web and mobile app development. I love learning new technologies and creating simple and intuitive applications.
       </p>
       <h1 className="mt-7 text-3xl font-bold">Projects:</h1>
       <ul className="mt-5">
-        <li>
+      <li className="mt-1">
+          <Link
+            to="/shiroyuki"
+            className="font-bold text-xl underline hover:text-red-500"
+          >
+            Shiroyuki
+          </Link>
+          <p className="font-light text-xs italic">2021</p>
+          <p>A Discord bot made for creating and viewing guild listings for the game Final Fantasy XIV.</p>
+        </li>
+        <li className="mt-1">
           <Link
             to="/kin"
             className="font-bold text-xl underline hover:text-red-500"
@@ -78,7 +88,7 @@ const IndexPage = () => {
             React and conneceted to MongoDB via a REST API using Express.
           </p>
         </li>
-        <li className="mt-3">
+        <li className="mt-1">
           <Link
             to="/personal"
             className="font-bold text-xl underline hover:text-red-500"
@@ -86,7 +96,7 @@ const IndexPage = () => {
             Personal Site
           </Link>
           <p className="font-light text-xs italic">2020</p>
-          <p>This current site, a static site created in React/Gatsby.</p>
+          <p>Personal website, a static site created in React/Gatsby.</p>
         </li>
       </ul>
       <h1 className="mt-7 text-3xl font-bold mb-5">Info:</h1>
