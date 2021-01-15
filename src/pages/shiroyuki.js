@@ -56,7 +56,7 @@ const ShiroyukiPage = () => {
       </div>
       <div className="flex items-center mt-1">
       <a
-          href="https://github.com/dokdek/psuepai"
+          href="https://github.com/dokdek/Shiroyuki"
           target="_blank"
           rel="noreferrer"
         >
