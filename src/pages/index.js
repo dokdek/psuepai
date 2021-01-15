@@ -9,7 +9,7 @@ import resume from "../files/Patchanon_Suepai_Resume.pdf";
 
 // markup
 const IndexPage = () => {
-  const [greeting, setGreeting] = useState("Hello!");
+  const [greeting, setGreeting] = useState();
   const [snackbarOpen, setSnackbarOpen] = useState(false);
 
   function Alert(props) {
