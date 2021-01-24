@@ -26,11 +26,11 @@ const IndexPage = () => {
   function getGreeting(time) {
     const hour = time.getHours();
     if (11 >= hour && hour >= 2) {
-      setGreeting("Good morning");
+      setGreeting("Good Morning");
     } else if (17 >= hour && hour >= 11) {
-      setGreeting("Good afternoon");
+      setGreeting("Good Afternoon");
     } else {
-      setGreeting("Good evening");
+      setGreeting("Good Evening");
     }
   }
 
@@ -55,7 +55,7 @@ const IndexPage = () => {
         <title>Patchanon Suepai</title>
         <link rel="shortcut icon" href={favicon} />
       </Helmet>
-      <h1 className="text-5xl font-bold leading-7 text-gray-900">
+      <h1 className="text-5xl font-bold text-gray-900">
         {greeting + "!"}
       </h1>
       <h2 className="mt-5 text-xl font-medium">I'm Patchanon Suepai</h2>
