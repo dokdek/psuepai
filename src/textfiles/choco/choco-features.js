@@ -1,0 +1,3 @@
+const text = "Users are able to create an account with the bot, learn and review new kanji and vocabulary, following the same learning path as what is offered on Wanikani. The bot will show new vocabulary and kanji respective to their progress, it will also remind users when new reviews are due. Proficiency is gauged using the Wanikani scale of levels and implements their algorithm for reviews and learning as well."
+
+export default text;

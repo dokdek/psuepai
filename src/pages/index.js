@@ -67,6 +67,16 @@ const IndexPage = () => {
       <ul className="mt-5">
       <li className="mt-1">
           <Link
+            to="/choco"
+            className="font-bold text-xl underline hover:text-red-500"
+          >
+            Choco
+          </Link>
+          <p className="font-light text-xs italic">2021</p>
+          <p>A Discord bot made for learning and reviewing Japanese vocabulary and kanji through a spaced repetition system built using Node/JavaScript.</p>
+        </li>
+      <li className="mt-1">
+          <Link
             to="/shiroyuki"
             className="font-bold text-xl underline hover:text-red-500"
           >
