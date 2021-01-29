@@ -1,6 +1,6 @@
 import React from 'react';
 
-const tech = ["JavaScript", "Node"];
+const tech = ["JavaScript", "Node", "MongoDB"];
 
 export default function list() {
       const items = tech.map((item)=> {
