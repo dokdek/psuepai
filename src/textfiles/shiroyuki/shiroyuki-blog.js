@@ -3,7 +3,7 @@ import React from "react";
 const text = [
   {
     date: "01/24/2021",
-    content: "After finishing the main features of the bot, I ran into a problem that pretty much renders the bot a bit useless. With the way I wanted the bot to DM the user the list of guilds that matches their search criteria, the bot would very quickly hit the Discord API rate limit which is in place to prevent spam. So the bot would not work in a true public setting as it would very easily hit the limits with real users."
+    content: "After finishing the main features of the bot, I ran into a problem that pretty much renders the bot a bit useless. With the way I wanted the bot to DM the user the list of guilds that matches their search criteria, the bot would very quickly hit the Discord API rate limit which is in place to prevent spam. So the bot would not work in a true public setting as it would very easily hit the limits with real users. Thus, this project is being retired as is."
   },
   {
     date: "01/20/2021",
