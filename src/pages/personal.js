@@ -5,9 +5,9 @@ import githubLogo from "../icons/github.png";
 import trelloLogo from "../icons/trello-mark-blue.png"
 import personalDescription from "../textfiles/personal/personal-description";
 import personalTech from "../textfiles/personal/personal-tech";
-import personalFeatures from "../textfiles/personal/personal-features";
 import personalReflection from "../textfiles/personal/personal-reflection";
 import personalBlog from "../textfiles/personal/personal-blog";
+import Menu from "../components/menu";
 
 const PersonalPage = () => {
   return (

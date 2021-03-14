@@ -3,11 +3,11 @@ import { Helmet } from "react-helmet";
 import favicon from "../icons/favicon.ico";
 import githubLogo from "../icons/github.png";
 import trelloLogo from "../icons/trello-mark-blue.png";
-import kinFeatures from "../textfiles/kin/kin-features";
 import kinGoals from "../textfiles/kin/kin-description.js";
 import kinTech from "../textfiles/kin/kin-tech";
 import kinReflect from "../textfiles/kin/kin-reflection";
 import kinBlog from "../textfiles/kin/kin-blog";
+import Menu from "../components/menu";
 
 const KinPage = () => {
   return (

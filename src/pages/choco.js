@@ -5,9 +5,9 @@ import githubLogo from "../icons/github.png";
 import trelloLogo from "../icons/trello-mark-blue.png";
 import chocoDescription from "../textfiles/choco/choco-description";
 import chocoTech from "../textfiles/choco/choco-tech";
-import chocoFeatures from "../textfiles/choco/choco-features";
 import chocoReflection from "../textfiles/choco/choco-reflection";
 import chocoBlog from "../textfiles/choco/choco-blog";
+import Menu from "../components/menu";
 
 const ChocoPage = () => {
   return (
