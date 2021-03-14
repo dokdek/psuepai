@@ -74,17 +74,14 @@ const PersonalPage = () => {
         alt="trello logo"></img>
         </a>
       </div>
-      <h1 className="mt-7 text-3xl font-bold">Goals</h1>
+      <h1 className="mt-7 text-3xl font-bold">Overview</h1>
       <p className="mt-3">{personalDescription}</p>
       <h1 className="mt-7 text-3xl font-bold">Technologies Used </h1>
       <ul className="ml-2 mt-3">
         {personalTech()}
       </ul>
-      <h1 className="mt-7 text-3xl font-bold">Features</h1>
-      <p className="mt-3">{personalFeatures}</p>
-      <h1 className="mt-7 text-3xl font-bold">Reflection</h1>
       <p className="mt-3">{personalReflection}</p>
-      <h1 className="mt-7 text-3xl font-bold">Updates/Blog</h1>
+      <h1 className="mt-7 text-3xl font-bold">Updates</h1>
       <div className="divide-y-2 divide-yellow-500 divide-solid">{personalBlog()}</div>
     </div>
   );

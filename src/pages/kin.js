@@ -44,9 +44,6 @@ const KinPage = () => {
           : Link
         </a>
       </div>
-      <p className="text-xs italic">
-        Hosted on Heroku free tier, so it will take a while to load at first.
-      </p>
       <div className="flex items-center">
         <svg
           className="bg-cover h-4 w-4 shadow-2xl rounded-full mr-1"
@@ -86,15 +83,12 @@ const KinPage = () => {
           ></img>
         </a>
       </div>
-      <h1 className="mt-7 text-3xl font-bold">Goals</h1>
+      <h1 className="mt-7 text-3xl font-bold">Overview</h1>
       <p className="mt-3">{kinGoals}</p>
       <h1 className="mt-7 text-3xl font-bold">Technologies Used </h1>
       <ul className="ml-2 mt-3">{kinTech()}</ul>
-      <h1 className="mt-7 text-3xl font-bold">Features</h1>
-      <p className="mt-3">{kinFeatures}</p>
-      <h1 className="mt-7 text-3xl font-bold">Reflection</h1>
       <p className="mt-3">{kinReflect}</p>
-      <h1 className="mt-7 text-3xl font-bold">Updates/Blog</h1>
+      <h1 className="mt-7 text-3xl font-bold">Updates</h1>
       <div className="divide-y-2 divide-yellow-500 divide-solid">
         {kinBlog()}
       </div>

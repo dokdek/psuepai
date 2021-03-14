@@ -8,6 +8,7 @@ import shiroyukiTech from "../textfiles/shiroyuki/shiroyuki-tech";
 import shiroyukiFeatures from "../textfiles/shiroyuki/shiroyuki-features";
 import shiroyukiReflection from "../textfiles/shiroyuki/shiroyuki-reflection";
 import shiroyukiBlog from "../textfiles/shiroyuki/shiroyuki-blog";
+import Menu from "../components/menu";
 
 const ShiroyukiPage = () => {
   return (
@@ -16,9 +17,7 @@ const ShiroyukiPage = () => {
         <title>Shiroyuki - Patchanon Suepai</title>
         <link rel="shortcut icon" href={favicon} />
       </Helmet>
-      <a className="font-bold hover:text-red-500" href="/">
-        Home
-      </a>
+      <div>{Menu()}</div>
       <h1 className="text-5xl font-bold text-gray-900">Shiroyuki</h1>
       <div className="flex items-center">
       <svg
@@ -69,15 +68,12 @@ const ShiroyukiPage = () => {
           ></img>
         </a>
       </div>
-      <h1 className="mt-7 text-3xl font-bold">Goals</h1>
+      <h1 className="mt-7 text-3xl font-bold">Overview</h1>
       <p className="mt-3">{shiroyukiDescription}</p>
       <h1 className="mt-7 text-3xl font-bold">Technologies Used </h1>
       <ul className="ml-2 mt-3">{shiroyukiTech()}</ul>
-      <h1 className="mt-7 text-3xl font-bold">Features</h1>
-      <p className="mt-3">{shiroyukiFeatures}</p>
-      <h1 className="mt-7 text-3xl font-bold">Reflection</h1>
       <p className="mt-3">{shiroyukiReflection}</p>
-      <h1 className="mt-7 text-3xl font-bold">Updates/Blog</h1>
+      <h1 className="mt-7 text-3xl font-bold">Updates</h1>
       <div className="divide-y-2 divide-yellow-500 divide-solid">
         {shiroyukiBlog()}
       </div>
