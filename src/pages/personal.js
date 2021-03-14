@@ -17,9 +17,7 @@ const PersonalPage = () => {
         <title>Personal Site - Patchanon Suepai</title>
         <link rel="shortcut icon" href={favicon} />
       </Helmet>
-      <a className="font-bold hover:text-red-500" href="/">
-        Home
-      </a>
+      <div>{Menu()}</div>
       <h1 className="text-5xl font-bold text-gray-900">Personal Site</h1>
       <div className="flex items-center">
       <svg
