@@ -1,3 +1,3 @@
-const text = "I ended up completing this project a lot quicker than the previous one, and with a lot less troubles as I was becoming more familiar with React. Plus, with how simple the site is, there wasn't anything too complicated. I learned a lot about styling my own components and figuring out the layout of the page and elements myself as unlike Material UI, Tailwind CSS doesn't provide any components out of the box, so I would have to think about the layout and components myself and then style them individually using Tailwind. This ends up giving me a lot more freedom to design the components how I want to.";
+const text = "This website is built using React/Gatsby and styled using Tailwind CSS. All components have been custom created and Tailwind CSS classes are applied for styling. It is deployed on Netlify for hosting.";
 
 export default text;

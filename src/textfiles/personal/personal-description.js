@@ -1,3 +1,3 @@
-const text = "I wanted to create a very simple and clean personal site to showcase my projects as well as my thoughts via a blog. I chose to use Gatsby as I was already familiar with React from my previous projects and it's only meant to be a static site. I chose to not use a component framework like last time and instead opt to creating my own components and style them using a utility CSS, which in this case, is Tailwind CSS. I want to deploy it on Netlify to allow for easy deployment and updates."
+const text = "A simple and clean personal website to showcase my personal project and give a bit more detail on them."
 
 export default text;

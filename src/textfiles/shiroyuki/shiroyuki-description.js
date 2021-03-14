@@ -1,3 +1,3 @@
-const text = "I wanted to create a bot to search and create guild listings in Discord for game communities. Currently, how most game related Discord servers operate is that people just post listings in a channel and it just sits there and the channel becomes cluttered. There is also no way to easy filter the listings to only display the ones you're interested in. I wanted a way for users to search and filter only for listings based on their criteria and have results be sent via DMs to reduce clutter in channels."
+const text = "Shiroyuki is a Discord bot that allows users to create and search through guild listings on the game FFXIV. Shiroyuki will usually be deployed in a channel and users can interact with her through private messages. Shiroyuki will ask users questions to help sort and filter through the listings to only show relevant listings to the user. This bot has now been retired due to technical issues.";
 
 export default text;

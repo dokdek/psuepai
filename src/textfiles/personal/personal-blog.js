@@ -2,9 +2,13 @@ import React from "react";
 
 const text = [
   {
+    date: "14/3/2021",
+    content: "Completely rewrote all project pages and added updated resume."
+  },
+  {
     date: "10/1/2021",
     content:
-    "Site is functionally complete and fully hosted, might tinker around with the layout/components, but I want to keep the site simple and avoid too much eye candy."
+    "Initial deployment."
   }
 ];
 
